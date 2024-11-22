@@ -1,0 +1,68 @@
+/* Estilo general de la tarjeta del producto */
+.product-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px auto;
+    max-width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Texto dentro de las tarjetas */
+  .product-card p {
+    margin: 10px 0;
+    color: #555;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Estilo para los títulos de los datos */
+  .product-card p strong {
+    color: #333;
+  }
+  
+  /* Botón de detalles del producto */
+  .product-details {
+    display: inline-block;
+    background-color: #f36f7f; /* Fondo rosado */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .product-details:hover {
+    background-color: #f9a8d4; /* Color rosado más claro */
+    transform: scale(1.05);
+  }
+  
+  /* Responsivo: en pantallas más grandes, organiza las tarjetas en una cuadrícula */
+  @media (min-width: 768px) {
+    .product-card {
+      display: inline-block;
+      vertical-align: top;
+      width: 45%; /* Ajusta el ancho */
+      margin: 10px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .product-card {
+      width: 30%;
+    }
+  }
+  

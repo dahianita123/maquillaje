@@ -1,0 +1,41 @@
+<app-nav></app-nav>
+
+<div class="product-info-container">
+    <!-- Imagen del producto -->
+    <div class="image-container">
+      <img [src]="producto.imgUrl" alt="Imagen del producto" class="product-image" />
+    </div>
+  
+    
+    <!-- Detalles del producto -->
+    <div class="product-details">
+      <h2>Detalles del Producto</h2>
+  
+      <div class="info-item">
+        <span>Producto:</span>
+        <p>{{producto.nombre}}</p>
+      </div>
+  
+      <div class="info-item">
+        <span>Marca:</span>
+        <p>{{producto.marca}}</p>
+      </div>
+  
+      <div class="info-item">
+        <span>Precio:</span>
+        <p>{{producto.precio}}</p>
+      </div>
+  
+      <div class="info-item">
+        <span>Descripción:</span>
+        <p>{{producto.descripcion}}</p>
+      </div>
+    </div>
+  
+    <!-- Opciones de producto -->
+    <div class="product-actions">
+      <button class="add-to-cart-button">Agregar al Carrito</button>
+      <button class="buy-now-button">Comprar Ahora</button>
+    </div>
+  </div>
+  

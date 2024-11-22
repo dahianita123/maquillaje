@@ -1,0 +1,57 @@
+/* Estilo general para el pie de página */
+.footer {
+  background-color: #fce4ec; /* Color suave de fondo rosado claro */
+  padding: 40px 20px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  color: #333; /* Color de texto oscuro para legibilidad */
+}
+
+/* Contenido dentro del pie de página */
+
+footer {
+  background-color: #f36f7f; /* Fondo rosado */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+footer .footer-content p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+footer .footer-content ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+footer .footer-content ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+footer .footer-content ul li a {
+  color: rgb(248, 133, 177);
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+footer .footer-content ul li a:hover {
+  color: #ff4196; /* Rosado más claro al hacer hover */
+}
+/* Responsividad */
+@media (max-width: 768px) {
+  .footer-content {
+    text-align: center;
+  }
+
+  .footer-links {
+    flex-direction: column;
+  }
+
+  .footer-links li {
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,123 @@
+/* Reset de márgenes y paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo global para el body */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fafafa; /* Fondo blanco suave */
+    color: #444; /* Color de texto oscuro para contraste */
+    line-height: 1.6;
+  }
+  
+  /* Estilo del Hero (sección principal) */
+  .hero {
+    background-color: #f8bbd0; /* Rosa suave */
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ad1457; /* Rosa fuerte */
+    padding: 30px;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .hero-content p {
+    font-size: 1.3rem;
+    max-width: 600px;
+    margin: 0 auto;
+    color: #ad1457;
+  }
+  
+  /* Sección Nosotros */
+  section {
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  #nosotros {
+    background-color: #fff; /* Fondo blanco */
+    color: #444;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 40px;
+  }
+  
+  #nosotros h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #d81b60; /* Rosa más intenso */
+  }
+  
+  #nosotros p {
+    font-size: 1.1rem;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Sección Ofertas */
+  #ofertas {
+    background-color: #fce4ec; /* Rosa pastel */
+    color: #444;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 40px;
+  }
+  
+  #ofertas h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #e91e63; /* Rosa vibrante */
+  }
+  
+  #ofertas p {
+    font-size: 1.1rem;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Sección Contacto */
+  #contacto {
+    background-color: #fff; /* Fondo blanco */
+    color: #444;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 40px;
+  }
+  
+  #contacto h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #d81b60; /* Rosa intenso */
+  }
+  
+  #contacto p {
+    font-size: 1.1rem;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Animaciones suaves */
+  section {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  section:hover {
+    transform: translateY(-5px);
+  }
+  

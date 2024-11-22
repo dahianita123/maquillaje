@@ -1,0 +1,10 @@
+<app-nav></app-nav>
+
+<div class="product-card" *ngFor="let producto of productosMaquillaje">
+    <p><strong>Nombre:</strong> {{producto.nombre}}</p>
+    <p><strong>Marca:</strong> {{producto.marca}}</p>
+    <p><strong>Precio:</strong> ${{producto.precio}}</p>
+    <p><strong>Calificación:</strong> {{producto.calificacion}} ⭐</p>
+    <button class="product-details" [routerLink]="['/detalle-producto', producto.id]">Ver Detalles</button>
+</div>
+
